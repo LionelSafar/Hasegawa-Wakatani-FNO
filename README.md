@@ -9,7 +9,8 @@ Implementations of Fourier Neural Operator (FNO, [Z. Li, N. Kovachki (2020)](htt
 The Neural Networks are trained to iteratively predict snapshots at the next time step from previous time steps over short sequences of the fluid flow. A curriculum learning approach is employed to transition linearly over the epochs from ground truth input (teacher forcing) to solely rely on previous predictions (free running) over.
 
 
-![Sample Snapshots](https://raw.githubusercontent.com/LionelSafar/Hasegawa-Wakatani-FNO/blob/main/Data/sample_images/n_snaps_-1.png))
+![Sample Image](https://raw.githubusercontent.com/LionelSafar/Hasegawa-Wakatani-FNO/main/Data/sample_images/n_snaps_-1.png)
+*Figure 1: Overview of flow extrapolation of each model type. FNO-based models maintain what visually resembles a quasi-equilibrium state of the HW system in the isotropic turbulent regime.*
 
 # Scripts
 
